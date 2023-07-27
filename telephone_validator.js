@@ -1,3 +1,8 @@
+
+const body = document.querySelector("body");
+body.style.backgroundImage = `url('./img/phone_background.jpg')`;
+
+
 function telephoneCheck(str) {
 //	//encompass all
 	var regex1 = (/1 ? ? ( ?\d{ 3}[- ]*)| ( ?\d{ 3 } [- ] *) \d{ 3 } [- ] *\d{ 4 } /g);
