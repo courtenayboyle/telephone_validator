@@ -30,12 +30,13 @@ body {
 .formFrame {
 	width: 48vw;
 	padding: 3%;
-	background-color: rgba(34, 31, 31, 0.805);
+	background-color: rgba(60, 60, 100, 0.857);
 	border-radius: 18px;
 	margin-top: 0%;
 	margin-left: 25%;
 	height: 35vh;
 	text-align: center;
+	box-shadow: 10px 10px 30px 5px rgb(40, 29, 50);
 }
 .main button{
 	padding: 2vh;
