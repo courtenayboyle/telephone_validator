@@ -1,6 +1,6 @@
 
-const body = document.querySelector("body");
-body.style.backgroundImage = `url('./img/phone_background.jpg')`;
+//const body = document.querySelector("body");
+//body.style.backgroundImage = `url('./img/phone_background.jpg')`;
 
 
 function telephoneCheck(str) {
