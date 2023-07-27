@@ -40,9 +40,26 @@ function telephoneCheck(str) {
 	}
 };
 
+function check_validator() {
+	const inputString = document.getElementById('inputString').value;
+	const resultElement = document.getElementById('responseText');
+
+	if (telephoneCheck(inputString)) {
+		resultElement.textContent = `Yup! "${inputString}" is a valid number format!`;
+	} else {
+		resultElement.textContent = `Sorry, "${inputString}" is not a valid phone number format.`;
+	}
+	openModal();
+}
+function openModal() {
+	document.getElementById('responseModal').style.display = 'block';
+}
+function closeModal() {
+	document.getElementById('responseModal').style.display = 'none';
+}
 
  let result1 = telephoneCheck("1 555-555-5555") 
-		// console.log(result1)
+		 console.log(result1)
  let result2 = telephoneCheck("1 (555) 555-5555") 
 		// console.log(result2)
  	let result3 = telephoneCheck("5555555555") 
