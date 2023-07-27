@@ -2,7 +2,7 @@
 	font-family: 'Bubblegum Sans', cursive;
 }
 body {
-	background-image: url('../img/phone_background.jpg');
+	background-image: url('./img/phone_background.jpg');
 	background-size:contain;
 	text-align: center;
 }
